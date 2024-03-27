@@ -1,1 +1,5 @@
-Programas para la escalada de privilegios en WINDOWS.
+
+# WINDOWS PRIVILEGE ESCALATION
+
+Programas para escalar privilegios en sistemas Windows.
+
