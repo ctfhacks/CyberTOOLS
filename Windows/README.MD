@@ -149,6 +149,15 @@ Es un programa similar a Mimikatz, podrás extraer contraseñas, hashes del sist
 ./LaZagne.exe Databases  # Extrae contraseñas de las BBDD
 ```
 
+## [Certify](https://github.com/GhostPack/Certify/blob/main/README.md) 🔗
+
+Certify.exe **extrae certificados** instalados en la máquina víctima, si logras obtener algún certificado con permisos elevados podrás obtener un TGT generado por Rubeus.exe
+
+#### COMANDOS
+```
+./Certify.exe find /vulnerable
+```
+
 ## [Chisel](https://github.com/jpillora/chisel/blob/master/README.md) 🔗
 
 Seguramente ya conozcas este programa, sirve para realizar **Port Forwarding**, esto quiere decir que te podrás traer un puerto interno de la máquina víctima a tu propia máquina.
@@ -207,7 +216,6 @@ ligolo-ng » session  # TIENES QUE ESCRIBIR 'session'.
 <img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/Ligolo-session.png" width="60%" height="60%"><br>
 
 ## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
-[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://davidgrandeweb.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-grande-garc%C3%ADa-4586b1255/)
 
