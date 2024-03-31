@@ -1,7 +1,7 @@
 
-# WINDOWS PRIVILEGE ESCALATION
+# LINUX PRIVILEGE ESCALATION
 
-Programas para escalar privilegios en sistemas Windows.
+Programas para escalar privilegios en sistemas Linux.
 
 
 
