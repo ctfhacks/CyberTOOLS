@@ -18,7 +18,7 @@ Ten en cuenta que son las más básicas e importantes, pero hay otras muchas má
 
 [Apuntes para el OSCP](https://linktodocumentation)
 
-<img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/oscp-icon.png" width="50%" height="50%">
+<img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/oscp-icon.png" width="25%" height="25%">
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://davidgrandeweb.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-grande-garc%C3%ADa-4586b1255/)
