@@ -1,5 +1,5 @@
 
-# **WINDOWS** & **LINUX** PRIVILEGE ESCALATION
+# Otros Programas
 
 En este repositorio escontrarás las **herramientas principales** para escanear cada sistema en busca de vulnerabilidades. 
 Ten en cuenta que son las más básicas e importantes, pero hay otras muchas más.
