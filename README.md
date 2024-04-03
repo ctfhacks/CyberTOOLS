@@ -11,7 +11,7 @@ Ten en cuenta que son las más básicas e importantes, pero hay otras muchas má
 
  - [**Windows** Privilege Escalation](https://github.com/DavidGrandeWeb/CyberTOOLS/tree/main/Windows)
  - [**Linux** Privilege Escalation](https://github.com/DavidGrandeWeb/CyberTOOLS/tree/main/Linux)
- - [*Other Programs*](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [*Mis Scripts*](https://github.com/DavidGrandeWeb/CyberTOOLS/tree/main/Mis%20Scripts)
 
 
 ## OSCP notes
