@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo -S <<< "kali" sudo
+clear
+sudo su
