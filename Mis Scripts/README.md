@@ -2,7 +2,7 @@
 # Mis Scripts
 
 Estos son mis pequeños scripts que he creado, son muy útiles para ahorrarte tiempo en ciertas tareas repetitivas como convertirte en root.
-Ten en cuenta que para poder ejecutarlos desde cualquier ruta tendrás que meterlos en la carpeta /usr/bin/
+*Ten en cuenta que para poder ejecutarlos desde cualquier ruta tendrás que meterlos en la carpeta **/usr/bin/***
 
 
 ## usersGen.py
