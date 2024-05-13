@@ -80,6 +80,7 @@ ligolo-ng » INFO[0037] Agent joined.                                 name="HTB\
 ligolo-ng » 
 ligolo-ng » session  # TIENES QUE ESCRIBIR 'session'.
 ? Specify a session : 1 - HTB\svc-alfresco@FOREST - 10.10.10.161:53939  #  AQUÍ ESCRIBES '1'.
+ligolo-ng » start  # TIENES QUE ESCRIBIR 'start'.
 ```
 
 <img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/Ligolo-session.png" width="60%" height="60%"><br>
