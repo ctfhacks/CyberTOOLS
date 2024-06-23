@@ -1,1 +1,1 @@
-WinPEAS.exe
+WinPEAS
