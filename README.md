@@ -2,6 +2,7 @@
 # **WINDOWS** & **LINUX** PRIVILEGE ESCALATION
 
 En este repositorio escontrarás las **herramientas principales** para escanear cada sistema en busca de vulnerabilidades o formas de escalar privilegios en máquinas Linux y Windows.
+
 Ten en cuenta que estas herramientas son las más básicas e importantes que yo considero por mi experiencia en máquinas de HackTheBox y otras plataformas.
 
 
