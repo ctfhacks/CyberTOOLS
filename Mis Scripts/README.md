@@ -4,6 +4,8 @@
 Estos son mis pequeños scripts que he creado, son muy útiles para ahorrarte tiempo en ciertas tareas repetitivas como convertirte en root.
 *Ten en cuenta que para poder ejecutarlos desde cualquier ruta tendrás que meterlos en la carpeta **/usr/bin/***
 
+## WPSecurity
+Programa para comprobar la **seguridad de Wordpress**, comprueba directory listing, archivo XMLRPC, wp-login, busca usuarios en /wp-json/... además ejecuta wpscan automaticamente. 
 
 ## usersGen.py
 Este programa genera a partir de una lista de usuarios combinaciones con su nombre y apellido, por ejemplo:<br>
